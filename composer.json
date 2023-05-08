@@ -1,0 +1,59 @@
+{
+  "name": "jambagecom/base-htmlparser",
+  "type": "typo3-cms-extension",
+  "description": "Standards compliant HTML filter written in PHP",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "xml",
+    "html", 
+    "html5", 
+    "dom", 
+    "parser", 
+    "serializer", 
+    "querypath"
+  ],
+  "support": {
+    "issues": "https://github.com/franzholz/base_htmlparser/issues"
+  },
+  "homepage": "https://jambage.com",
+  "authors": [
+        {
+            "name": "Matt Butcher",
+            "email": "technosophos@gmail.com"
+        },
+        {
+            "name": "Matt Farina",
+            "email": "matt@mattfarina.com"
+        },
+        {
+            "name": "Asmir Mustafic",
+            "email": "goetas@gmail.com"
+        },
+        {
+        "name": "Franz Holzinger",
+        "role": "Developer",
+        "homepage": "https://ttproducts.de"
+        }
+  ],
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "require": {
+    "typo3/cms-core": "^10.4 || ^11.5 || ^12.3"
+  },
+  "repositories": [
+    {
+        "type": "path",
+        "url": "Vendor/html5-php"
+    }
+  ],
+  "replace": {
+    "typo3-ter/base-htmlparser": "self.version"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "base_html"
+    }
+  }
+}
