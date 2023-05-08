@@ -53,7 +53,7 @@
   },
   "extra": {
     "typo3/cms": {
-      "extension-key": "base_html"
+      "extension-key": "base_htmlparser"
     }
   }
 }

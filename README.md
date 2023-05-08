@@ -1,4 +1,4 @@
-# TYPO3 extension base_html
+# TYPO3 extension base_htmlparser
 
 ## What is does
 
