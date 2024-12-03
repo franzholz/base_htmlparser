@@ -1,2 +1,5 @@
+2024-12-03 Franz Holzinger <franz@ttproducts.de>
+    * Support for TYPO3 13
+
 2023-05-08 Franz Holzinger <franz@ttproducts.de>
     * initial creation based on html5-php v2.8.0: See the file Vendor/version.txt and https://github.com/Masterminds/html5-php/tree/2.8.0 .
